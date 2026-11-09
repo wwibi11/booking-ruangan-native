@@ -1,5 +1,6 @@
 ## 📁 Struktur Folder yang Akan Kita Buat
-'''
+
+```text
 booking-native\
 │
 ├── config/
@@ -7,14 +8,15 @@ booking-native\
 ├── helpers/
 │   └── functions.php
 ├── views/
-│   ├── layout.php
+│   ├── layouts.php
 │   └── flash.php
-├── rooms/          
-├── users/          
-├── bookings/       
-├── css/
-│   └── style.css   
-├── index.php
+├── public/
+│   ├── index.php
+│   ├── css/
+│   │   └── style.css
+│   ├── rooms/
+│   ├── users/
+│   └── bookings/
 ├── database.sql
-└── README.md       
-'''
+└── README.md
+```
