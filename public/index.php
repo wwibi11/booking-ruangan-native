@@ -1,7 +1,7 @@
 <?php
 // index.php — halaman depan / dashboard
-require __DIR__ . '/config/database.php';
-require __DIR__ . '/helpers/functions.php';
+require __DIR__ . '/../config/database.php';
+require __DIR__ . '/../helpers/functions.php';
 
 // Tes cepat koneksi & jumlah data
 $jumlah_rooms    = $pdo->query("SELECT COUNT(*) FROM rooms")->fetchColumn();
@@ -15,7 +15,7 @@ $jumlah_bookings = $pdo->query("SELECT COUNT(*) FROM bookings")->fetchColumn();
     <title>Booking Ruangan — Dashboard</title>
 </head>
 <body>
-    <h1>🏨 Aplikasi Booking Ruangan</h1>
+    <h1>Aplikasi Booking Ruangan</h1>
 
     <p>✅ Koneksi database berhasil.</p>
 
