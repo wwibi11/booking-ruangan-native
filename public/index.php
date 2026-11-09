@@ -27,7 +27,7 @@ $jumlah_bookings = $pdo->query("SELECT COUNT(*) FROM bookings")->fetchColumn();
 
     <h2>Menu (akan dibuat bertahap)</h2>
     <ul>
-        <li><a href="rooms/index.php">Kelola Ruangan</a> (belum ada)</li>
+        <li><a href="rooms/index.php">Kelola Ruangan</a></li>
         <li><a href="users/index.php">Kelola User</a> (belum ada)</li>
         <li><a href="bookings/index.php">Kelola Booking</a> (belum ada)</li>
     </ul>
